@@ -4,7 +4,7 @@
     <title>More Information</title>
     <style>
       img {
-        width: 800px;
+        width: 100%;
         height: 300px;
         object-fit: cover;
         object-position: 10;
@@ -12,13 +12,134 @@
       button {
         color: blue;
       }
+      data {
+        font-size: xx-large;
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      nav {
+        width: 100%;
+        height: 50px;
+        background-color: #53698f;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: cesnter;
+        padding: 0px 50px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+      }
+      .logo {
+        font-size: 35px;
+        font-weight: bold;
+      }
+      .menu {
+        width: 55%;
+        display: contents;
+        justify-content: right;
+        list-style: none;
+      }
+      .menu li {
+        margin-left: 5%;
+      }
+      .menu li a {
+        font-size: 19px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s ease;
+      }
+      .menu li a:hover {
+        color: #ccc;
+      }
+      .search {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+      }
+      .search form {
+        display: flex;
+        margin: 0;
+      }
+      .search input {
+        padding: 10px;
+        border: 1px solid #ddd;
+        outline: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        font-size: 10px;
+      }
+      .seacrh input:hover {
+        border: 1px solid #72a0d4;
+      }
+      .seacrh button {
+        padding: 100px;
+        background-color: #fff;
+        border-radius: 5px;
+        border: none;
+        color: #333;
+        font-size: 10px;
+        cursor: pointer;
+      }
+      .seacrh button:hover {
+        background-color: #ccc;
+      }
+    </style>
+    <style>
+      .content {
+        font-weight: normal;
+        border: 8%;
+        width: 89%;
+        font-size: larger;
+        font-style: normal;
+        margin-right: 10%;
+      }
+    </style>
     </style>
   </head>
   <body>
+    <nav>
+      <div class="logo">AlCoders</div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="More info.html">More Info</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href=""></a></li>
+      </ul>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Go</button>
+        </form>
+      </div>
+    </nav>
+    <p>as</p>
+    <p>as</p>
+    <p>as</p>
     <img src="images/photo.jpg" />
-    <p><strong>Incharge(Alex)</strong></p>
+    <p class="data">
+      Viswadeepthi English Medium School is a well-established institution
+      located in Kattakada, Thiruvananthapuram, Kerala. The school is affiliated
+      with the Central Board of Secondary Education (CBSE) and offers education
+      from primary to senior secondary levels. It is known for its balanced
+      approach to academics and extracurricular activities, encouraging students
+      to pursue interests beyond the classroom. The school is headed by Fr. John
+      Varghese, who has an impressive background in education, holding
+      qualifications like M.Sc., M.Phil., and Ph.D. He has over 30 years of
+      teaching experience and one year of administrative experience. The school
+      provides a comprehensive education with a focus on both academic
+      excellence and holistic development. Parents and students generally rate
+      the school positively, highlighting the supportive faculty and the
+      school's commitment to student well-being. The infrastructure is also
+      well-regarded, providing a conducive environment for learning.
+    </p>
     <p><strong>Contacts:0000000000</strong></p>
-    <a href="index.html"><button>Home Page</button></a>
-    <p>For More Info</p>
+    <a href="https://viswadeepthischool.com/" target="_blank"
+      ><button>For More info about the school</button></a
+    >
   </body>
 </html>

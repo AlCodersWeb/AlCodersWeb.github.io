@@ -5,11 +5,10 @@
     <style>
       img {
         background-color: darkcyan;
-        width: 800x;
+        width: 100%;
         height: 300;
         border-radius: 70px;
-
-        margin-right: 2cm;
+        margin-right: 0;
       }
       p.name {
         font-size: xxx-large;
@@ -27,34 +26,139 @@
       }
       button {
         color: blue;
+        size: 0;
+      }
+    </style>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      nav {
+        width: 100%;
+        height: 50px;
+        background-color: #53698f;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: cesnter;
+        padding: 0px 50px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+      }
+      .logo {
+        font-size: 35px;
+        font-weight: bold;
+      }
+      .menu {
+        width: 55%;
+        display: contents;
+        justify-content: right;
+        list-style: none;
+      }
+      .menu li {
+        margin-left: 5%;
+      }
+      .menu li a {
+        font-size: 19px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.3s ease;
+      }
+      .menu li a:hover {
+        color: #ccc;
+      }
+      .search {
+        display: flex;
+        align-items: center;
+        margin-right: 0;
+      }
+      .search form {
+        display: flex;
+        margin: 0;
+      }
+      .search input {
+        padding: 10px;
+        border: 1px solid #ddd;
+        outline: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        font-size: 10px;
+      }
+      .seacrh input:hover {
+        border: 1px solid #72a0d4;
+      }
+      .seacrh button {
+        padding: 100px;
+        background-color: #fff;
+        border-radius: 5px;
+        border: none;
+        color: #333;
+        font-size: 10px;
+        cursor: pointer;
+      }
+      .seacrh button:hover {
+        background-color: #ccc;
+      }
+    </style>
+    <style>
+      .content {
+        font-weight: normal;
+        border: 8%;
+        width: 89%;
+        font-size: larger;
+        font-style: normal;
+        margin-right: 10%;
       }
     </style>
   </head>
   <body>
+    <nav>
+      <div class="logo">AlCoders</div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="More info.html">More Info</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href=""></a></li>
+      </ul>
+      <div class="search">
+        <form>
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Go</button>
+        </form>
+      </div>
+    </nav>
+    <p>unwanted</p>
+    <p>unwanted</p>
+    <p>unwanted</p>
     <img src="images/banner.jpg" alt="Logo of AlCoders" />
-    <h1 id="name">Atal Lab</h1>
-    <h2><em>Al Coders</em></h2>
-    <p class="me">Members:</p>
-    <p>Amal M Anil AKA (Vyzer)</p>
-    <p>Krishnachandra M S AKA (KC)</p>
-    <p>Nebin Raj AKA (Vinso)</p>
-    <p>Nikhil Jonh J AKA (Nikki)</p>
-    <p>Akshay VS AKA (PP)</p>
-    <p><strong>Mentor</strong>: Praveen AKA (PC)</p>
-    <p><strong>Incharge</strong>: Alex AKA (Agent X)</p>
-    <p>
-      The lab we are reffering to is situated<strong>
-        Viswadeepthi English Medium School,TVM</strong
-      >
-    </p>
-    <p>
-      If you are interested in this,you can join the team by contacting the
-      Incharge
-    </p>
-    <a href="More info.html"
-      ><button>For More Information about the School</button></a
-    >
-    <p>To know more</p>
-    <a href="about us.html"><button>More About us</button></a>
+    <div class="content">
+      <h1 id="name">Atal Lab</h1>
+
+      <h2><em>Al Coders</em></h2>
+
+      <p class="me">Members:</p>
+      <p>Amal M Anil AKA (Vyzer)</p>
+
+      <p>Krishnachandra M S AKA (KC)</p>
+
+      <p>Nebin Raj AKA (Vinso)</p>
+      <p>Nikhil Jonh J AKA (Nikki)</p>
+      <p>Akshay VS AKA (PP)</p>
+      <p><strong>Mentor</strong>: Praveen AKA (PC)</p>
+      <p><strong>Incharge</strong>: Alex AKA (Agent X)</p>
+      <p>
+        The lab we are reffering to is situated<strong>
+          Viswadeepthi English Medium School,TVM</strong
+        >
+      </p>
+      <p>
+        If you are interested in this,you can join the team by contacting the
+        Incharge
+      </p>
+    </div>
   </body>
 </html>
