@@ -1,0 +1,19 @@
+button {
+    color: blue;
+  }
+
+  .content {
+    font-weight: normal;
+    border: 8%;
+    width: 100%;
+    font-size: larger;
+    font-style: normal;
+    margin-right: 10%;
+  }
+  .content h1{
+    padding-top:55px ;
+  }
+  .mail button{
+    height: 50px;
+    font-size: medium;
+  }
