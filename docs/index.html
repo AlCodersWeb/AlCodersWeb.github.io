@@ -6,10 +6,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
-    
-    <link rel="stylesheet" href="css/indexpage.css" >
-    <link rel="stylesheet" href="css/navigationbar.css">
 
+    <link rel="stylesheet" href="css/indexpage.css" />
+    <link rel="stylesheet" href="css/navigationbar.css" />
   </head>
   <body>
     <nav>
@@ -22,41 +21,23 @@
       </ul>
       <div class="search">
         <form>
-          <input type="text" placeholder="Search..." />
-          <button type="submit">
-            <span class="material-symbols-outlined"> search </span>
-          </button>
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Search..."
+            autocomplete="off"
+          />
+          <div class="searchicon">
+            <button type="submit">
+              <span class="material-symbols-outlined"> search </span>
+            </button>
+          </div>
+          <div class="result-box"></div>
         </form>
       </div>
     </nav>
     <img src="images/banner.jpg" alt="Logo of AlCoders" />
-    <div class="content">
-      <h1 id="name">Atal Lab</h1>
 
-      <h2><em>Al Coders</em></h2>
-
-      <p class="me">Members:</p>
-      <p>Amal M Anil AKA (Vyzer)</p>
-
-      <p>Krishnachandra M S AKA (KC)</p>
-
-      <p>Nebin Raj AKA (Vinso)</p>
-      <p>Nikhil Jonh J AKA (Nikki)</p>
-      <p>Akshay VS AKA (PP)</p>
-      <p><strong>Mentor</strong>: Praveen AKA (PC)</p>
-      <p><strong>Incharge</strong>: Alex AKA (Agent X)</p>
-      <p>
-        The lab we are reffering to is situated<strong>
-          Viswadeepthi English Medium School,TVM</strong
-        >
-      </p>
-      <p>
-        If you are interested in this,you can join the team by contacting the
-        Incharge
-      </p>
-    </div>
-    <div class="mail">
-      <a href="mailto:alcodersatal@gmail.com" target="_blank"
-        ><button>Join the Atal lab by mailing us</button></a>
+    <script src="navigation.js"></script>
   </body>
 </html>
