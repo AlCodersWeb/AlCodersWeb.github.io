@@ -10,6 +10,7 @@ let availableKeywords = [
     'What is coding',
     'What is Arduino',
     'How to use Arduino',
+    'Home',
 ];
 
 const resultsBox = document.querySelector(".result-box");
@@ -43,3 +44,14 @@ function selectInput(list){
     inputBox.value = list.innerHTML;
     resultsBox.innerHTML = '';
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -26,11 +26,12 @@
           <input
             type="text"
             id="input-box"
+            onkeypress="checkEnter(event)"
             placeholder="Search..."
-            autocomplete="off"
           />
+
           <div class="searchicon">
-            <button type="submit">
+            <button type="submit" onclick="redirectToPage()">
               <span class="material-symbols-outlined"> search </span>
             </button>
           </div>
@@ -79,7 +80,7 @@
           <p>KC</p>
           <p>Vinso</p>
           <p>Nikki</p>
-          <p>PP</p>
+          <p>CJ</p>
           <p><strong>Mentor</strong>: Praveen</p>
           <p><strong>Incharge</strong>: Alex</p>
         </div>
@@ -101,5 +102,6 @@
       </div>
     </div>
     <script src="navigation.js"></script>
+    <script src="nav2.js"></script>
   </body>
 </html>
